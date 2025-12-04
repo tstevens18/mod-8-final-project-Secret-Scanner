@@ -29,19 +29,19 @@ Usage:
 
 My application is run entirely through the command line using argparse to manage input options. It can scan either a single file or an entire directory.
 
-Scan a single file
+Scan a single file:
 python secret_scanner.py secrets.txt
 
-Scan a directory
+Scan a directory:
 python secret_scanner.py path/to/folder
 
-Scan all files (no extension filter)
+Scan all files (no extension filter):
 python secret_scanner.py path/to/folder -e
 
-Scan specific file types
+Scan specific file types:
 python secret_scanner.py project -e .py .env .txt
 
-Enable detailed debug logging
+Enable detailed debug logging:
 python secret_scanner.py project --log-level DEBUG
 
 
